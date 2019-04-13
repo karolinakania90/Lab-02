@@ -11,5 +11,6 @@ namespace Lab_02
         static void Main(string[] args)
         {
         }
+
     }
 }
