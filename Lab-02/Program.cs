@@ -27,5 +27,6 @@ namespace Lab_02
 
             Console.Read();
         }
+
     }
 }
