@@ -12,12 +12,13 @@ namespace Lab_02
         {
             for (int i = 0; i < m; i++)
             {
-                Console.Write("x");
-                for (int j = 1; j < n; j++)
-                {
-                    Console.Write("x");
-                }
-                Console.WriteLine();
+                Console.WriteLine(i);
+
+            }
+            Console.WriteLine();
+            for (int j = 0; j < m; j++)
+            {
+                Console.Write(j);
             }
         }
 
