@@ -55,7 +55,10 @@ namespace LiteraX
 
         static void Main(string[] args)
         {
-            LiteraX(11);
+            for (int i = 0; i < 3; i++)
+            {
+                LiteraX(11);
+            }
             Console.Read();
         }
     }
