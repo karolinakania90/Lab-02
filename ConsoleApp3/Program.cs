@@ -11,8 +11,10 @@ namespace LiteraZ
 
         static void Main(string[] args)
         {
+            int n = 8;
+            int m = 8;
 
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < n; i++)
             {
                 Console.Write("*");
             }
@@ -20,18 +22,17 @@ namespace LiteraZ
 
             Console.WriteLine();
 
-            int n = 8;
-            int m = 8;
+
 
             // góra i dół
             int suma = 2;
 
             for (int i = 0; i < n - suma; i++)
             {
-                for (int j = 0; j < m - i - suma; j++)
+                for (int j = 0; j < m - suma; j++)
                 {
                     Console.Write(" ");
-                    if (j > m - i - 2 * suma)
+                    if (j == i)
                     {
                         Console.Write("*");
                     }
@@ -40,7 +41,7 @@ namespace LiteraZ
                 Console.WriteLine();
             }
 
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < n; i++)
             {
                 Console.Write("*");
             }

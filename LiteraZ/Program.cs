@@ -20,8 +20,8 @@ namespace LiteraZ
 
             Console.WriteLine();
 
-            int n = 8;
-            int m = 8;
+            int n = 7;
+            int m = 7;
 
             // góra i dół
             int suma = 2;
