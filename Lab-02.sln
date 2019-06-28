@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prostokat", "Lab-02\Prostokat.csproj", "{4AABED73-9CB8-43CB-A8EC-22B4EDC60D99}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteraX", "LiteraX\LiteraX.csproj", "{9532CB81-0D06-4038-9339-A1B804DB8505}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteraZ", "LiteraZ\LiteraZ.csproj", "{9EF8B5E3-8A78-453D-B29F-E0EEED18204D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteraZodw", "ConsoleApp3\LiteraZodw.csproj", "{472C5576-68FF-47CF-93DC-245E87226759}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteraZodw", "LiteraZodw\LiteraZodw.csproj", "{472C5576-68FF-47CF-93DC-245E87226759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prostokat", "Prostokat\Prostokat.csproj", "{4AABED73-9CB8-43CB-A8EC-22B4EDC60D99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4AABED73-9CB8-43CB-A8EC-22B4EDC60D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AABED73-9CB8-43CB-A8EC-22B4EDC60D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AABED73-9CB8-43CB-A8EC-22B4EDC60D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AABED73-9CB8-43CB-A8EC-22B4EDC60D99}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9532CB81-0D06-4038-9339-A1B804DB8505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9532CB81-0D06-4038-9339-A1B804DB8505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9532CB81-0D06-4038-9339-A1B804DB8505}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{472C5576-68FF-47CF-93DC-245E87226759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{472C5576-68FF-47CF-93DC-245E87226759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{472C5576-68FF-47CF-93DC-245E87226759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AABED73-9CB8-43CB-A8EC-22B4EDC60D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AABED73-9CB8-43CB-A8EC-22B4EDC60D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AABED73-9CB8-43CB-A8EC-22B4EDC60D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AABED73-9CB8-43CB-A8EC-22B4EDC60D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
